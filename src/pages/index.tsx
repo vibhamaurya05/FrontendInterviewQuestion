@@ -34,12 +34,31 @@ export default function Home(): JSX.Element {
                          height: "100vh",
                          backgroundColor: "#2e8555",
                          display: "flex",
-
+                         flexDirection: "column",
                          justifyContent: "center",
                          alignItems: "center",
                     }}
                >
                     <HomepageHeader />
+                    <footer
+                         style={{
+                              marginTop: "100px",
+                         }}
+                    >
+                         {" "}
+                         &lt;/&gt; and Crafted with 💛 by{" "}
+                         <span style={{}}>
+                              <a
+                                   style={{
+                                        color: "black",
+                                        fontWeight: "bolder",
+                                   }}
+                                   href="https://vivekmaurya.me"
+                              >
+                                   Vivek Maurya
+                              </a>
+                         </span>
+                    </footer>
                </main>
           </Layout>
      );
