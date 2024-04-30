@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
-     title: "Javascript",
-     tagline: "Javascript Interview Questions and Answers",
+     title: "FRONTEND PREPARATIONS",
+     tagline: "Frontend Interview Questions and Answers",
      favicon: "img/favicon.png",
 
      // Set the production url of your site here
@@ -56,7 +56,7 @@ const config: Config = {
           // Replace with your project's social card
           image: "img/docusaurus-social-card.jpg",
           navbar: {
-               title: "Javascript",
+               title: "FRONTEND",
                logo: {
                     alt: "My Site Logo",
                     src: "img/favicon.png",
