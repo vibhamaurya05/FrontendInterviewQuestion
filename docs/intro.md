@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# JavaScript Interview Question and Answer
+# JavaScript
 
 <details >
 <summary>
@@ -18,8 +18,6 @@ List some features of JavaScript.
 -    Cross-platform
 </details>
 
-<br/>
-
 <details>
 <summary>
 Who developed JavaScript, and what was the first name of JavaScript?
@@ -28,7 +26,6 @@ JavaScript was developed by Brendan Eich, who was a Netscape programmer. Brendan
 
 </details>
 
-<br/>
 <details>
 
 <summary> 
@@ -54,7 +51,6 @@ Some of the disadvantages of JavaScript are:
 -    Reading and writing of files is not allowed
 -    No support for networking applications.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -62,7 +58,6 @@ What is ECMAScript ?
 </summary>
 ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications. The first edition of ECMAScript was released in 1997.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -70,7 +65,6 @@ What is JSON ?
 </summary>
 JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. It is based on a subset of JavaScript language in the way objects are built in JavaScript.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -83,7 +77,6 @@ Below are the list of syntax rules of JSON
 -    Curly braces hold objects
 -    Square brackets hold arrays
 </details>
-<br/>
 
 <details>
 <summary>
@@ -91,7 +84,6 @@ Why do you need JSON ?
 </summary>
 When exchanging data between a browser and a server, the data can only be text. Since JSON is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -99,7 +91,6 @@ What are PWAs ?
 </summary>
 Progressive web applications (PWAs) are a type of mobile app delivered through the web, built using common web technologies including HTML, CSS and JavaScript. These PWAs are deployed to servers, accessible through URLs, and indexed by search engines.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -107,7 +98,6 @@ What is V8 JavaScript engine ?
 </summary>
 V8 is an open source high-performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. Note: It can run standalone, or can be embedded into any C++ application.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -115,7 +105,6 @@ What is jQuery ?
 </summary>
 jQuery is a popular cross-browser JavaScript library that provides Document Object Model (DOM) traversal, event handling, animations and AJAX interactions by minimizing the discrepancies across browsers. It is widely famous with its philosophy of “Write less, do more”.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -143,7 +132,6 @@ obj["c"]; // true
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -165,7 +153,6 @@ typeof arr; // "object"
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -199,7 +186,6 @@ typeof a; // "object"
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -226,7 +212,6 @@ Some simple equalityrules:
 -    If either value in a comparison could be of these specific values (0, "", or [] -- empty array), avoid == and use ===.
 -    In all other cases, you're safe to use ==. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -237,7 +222,6 @@ What is Scope in JavaScript?
 A variable name has to be unique within the same scope. A scope can be nested inside another scope. If one scope is nested inside another, code inside the innermost scope can access variables from either scope.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -253,7 +237,6 @@ Explain Values and Types in JavaScript
 -    symbol (new to ES6)
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -292,7 +275,6 @@ console.log(a == undefined); // true
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -303,7 +285,6 @@ What's the difference between Host objects and Native objects?
 -    Host objects are provided by the runtime environment (browser or Node), such as window, XMLHTTPRequest, etc.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -334,7 +315,6 @@ element = document.querySelectorAll(selectors);
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -417,7 +397,6 @@ console.log(sum); // Output: 60
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -473,7 +452,6 @@ let a = 3;
 They will only get initialized when their lexical binding (assignment) is evaluated during runtime by the JavaScript engine. This means we can’t access the variable before the engine evaluates its value at the place it was declared in the source code. This is what we call Temporal Dead Zone, A time span between variable creation and its initialization where they can’t be accessed.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -499,7 +477,6 @@ myFunction("Welcome "); // Output: Welcome prabir
 As per the above code, the inner function greetingInfo() has access to the variables in the outer function Welcome() even after outer function has returned.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -521,7 +498,6 @@ Object.assign({}, obj) is another alternative.
 Object.keys(obj).reduce((acc, key) => (acc[key] = obj[key], acc), {}) is another more verbose alternative that shows the concept in greater depth.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -542,7 +518,6 @@ Hoist(30); //output:30
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -555,7 +530,6 @@ There are two ways of event flow
 -    Top to Bottom(Event Capturing)
 -    Bottom to Top (Event Bubbling)
 </details>
-<br/>
 
 <details>
 <summary>
@@ -586,7 +560,6 @@ var person = new Person("Prabir", "Kumar", 25);
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -649,7 +622,7 @@ inviteEmployee2("Hello", "How are you?"); // Hello Kumar P, How are you?
 ```
 
   </details>
-  <br/>
+
 
 <details>
 <summary>
@@ -669,7 +642,6 @@ console.log(arr2);
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -682,7 +654,6 @@ const unaryFunction = (a) => console.log(a + 20); //Add 20 to the given argument
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -706,7 +677,6 @@ volume(2)(6)(3); // 36
 Curried functions are great to improve code re-usability and functional composition.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -718,7 +688,6 @@ WebWorkers do not have access to below javascript objects since they are defined
 -    Document object
 -    Parent object
 </details>
-<br/>
 
 <details>
 <summary>
@@ -742,7 +711,6 @@ Promises have three states:
 -    Fulfilled: This state indicates that specified operation was completed.
 -    Rejected: This state indicates that the operation did not complete. In this case an error value will be thrown.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -770,7 +738,6 @@ We also have a second function called logResult that takes a single argument (th
 In the last line of the example, we are calling the add function and passing it the numbers 2 and 3, along with the logResult function as a callback. This causes the add function to invoke the logResult function, passing it the result of the addition (5), which in turn logs the result to the console.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -802,7 +769,6 @@ Output;
 As observed from the output, javascript didnot wait for the response of first function and remaining code block get executed. So callbacks used in a way to make sure that certain code does not execute until other code finished execution.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -826,7 +792,6 @@ async1(function() {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -860,7 +825,6 @@ After that the value passed to the next .then handler by logging the result(2) a
 Finally the value passed to the last .then handler by logging the result(6) and return a promise with result \* 4.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -873,7 +837,6 @@ console.log(eval("3 + 2")); //  5
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -888,7 +851,6 @@ typeof NaN; //Number
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -908,7 +870,6 @@ Cons:
 -    It makes little complex code
 -    You need to load a polyfill if ES6 is not supported
 </details>
-<br/>
 
 <details>
 <summary>
@@ -937,7 +898,6 @@ console.log(input.value); // Good evening
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -953,7 +913,6 @@ For example, the below link notify the message without reloading the page
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -961,7 +920,6 @@ Is JavaScript a compiled or interpreted language?
 </summary>
 JavaScript is an interpreted language, not a compiled language. An interpreter in the browser reads over the JavaScript code, interprets each line, and runs it. Nowadays modern browsers use a technology known as Just-In-Time (JIT) compilation, which compiles JavaScript to executable bytecode just as it is about to run.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -970,7 +928,6 @@ Is JavaScript a case-sensitive language?
 Yes, JavaScript is a case sensitive language. The language keywords, variables, function & object names, and any other identifiers must always be typed with a consistent capitalization of letters.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -980,7 +937,6 @@ What is BOM?
 The Browser Object Model (BOM) allows JavaScript to "talk to" the browser. It consists of the objects navigator, history, screen, location and document which are children of window. The Browser Object Model is not standardized and can change based on different browsers.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -995,7 +951,6 @@ setTimeout(function () {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1011,7 +966,6 @@ setInterval(function () {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1020,7 +974,6 @@ Why is JavaScript treated as Single threaded?
 </summary>
 JavaScript is a single-threaded language. Because the language specification does not allow the programmer to write code so that the interpreter can run parts of it in parallel in multiple threads or processes. Whereas languages like java, go, C++ can make multi-threaded and multi-process programs.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1043,7 +996,6 @@ form.addEventListener(
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1058,7 +1010,6 @@ console.log(userString); //"{"name":"Prabir","age":25}"
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1073,7 +1024,6 @@ console.log(userJSON); // {name: "Prabir", age: 25}
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1096,7 +1046,6 @@ function stop() {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1118,7 +1067,6 @@ function stop() {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1134,7 +1082,6 @@ function redirect() {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1174,7 +1121,6 @@ regex.test(mainString);
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1203,7 +1149,6 @@ for (i = 0; i < 10; i++) {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1221,7 +1166,6 @@ JSON arrays are written inside square brackets and array contain javascript obje
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1236,7 +1180,6 @@ Math.floor(Math.random() * 100) + 1; // returns a random integer from 1 to 100
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1257,7 +1200,6 @@ document.getElementById("title").style.className = "custom-title";
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1274,7 +1216,6 @@ function getProfile() {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1282,7 +1223,6 @@ What is the purpose of breakpoints in debugging?
 </summary>
 You can set breakpoints in the javascript code once the debugger statement is executed and debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using play button.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1296,7 +1236,6 @@ var else = "hello"; // Uncaught SyntaxError: Unexpected token else
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1310,7 +1249,6 @@ console.log(isAuthenticated ? "Hello, welcome" : "Sorry, you are not authenticat
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1340,7 +1278,6 @@ function traceValue(someParam) {
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1354,7 +1291,6 @@ new Employee().prototype === undefined;
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1374,7 +1310,6 @@ console.log(Object.keys(user)); //['name', 'gender', 'age']
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1396,7 +1331,6 @@ admin.printInfo(); // My name is Kumar
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1413,7 +1347,6 @@ greeting(); // returns "Hello, Prabir Kumar"
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1447,7 +1380,6 @@ console.log(z); // 20
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1467,7 +1399,6 @@ greeting();
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1494,7 +1425,6 @@ console.log(user.lang); // setter used to set lang as fr
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1507,7 +1437,6 @@ Below are the list of statements used in an error handling,
 3. throw: This statement is used to create custom errors.
 4. finally: This statement is used to execute code after try and catch regardless of the result.
   </details>
-  <br/>
 
 <details>
 <summary>
@@ -1520,7 +1449,6 @@ Event delegation is a technique involving adding event listeners to a parent ele
 -    There is no need to unbind the handler from elements that are removed and to bind the event for new elements.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1538,7 +1466,6 @@ console.log(add.apply(null, [3, 2])); // 5
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1549,7 +1476,6 @@ The bind() method creates a new function that, when called, has its this keyword
 In my experience, it is most useful for binding the value of this in methods of classes that you want to pass into other functions. This is frequently done in React components.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1561,7 +1487,6 @@ Explain the difference between synchronous and asynchronous functions?
 -    Asynchronous functions usually accept a callback as a parameter and execution continue on the next line immediately after the asynchronous function is invoked. The callback is only invoked when the asynchronous operation is complete and the call stack is empty. Heavy duty operations such as loading data from a web server or querying a database should be done asynchronously so that the main thread can continue executing other operations instead of blocking until that long operation to complete (in the case of browsers, the UI will freeze).
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1573,7 +1498,6 @@ What is event loop? What is the difference between call stack and task queue?
 -    If you haven't already checked out Philip Robert's talk on the Event Loop, you should. It is one of the most viewed videos on JavaScript
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1601,7 +1525,6 @@ console.log(y); // Output: ReferenceError: y is not defined
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1627,7 +1550,6 @@ In this example, the inner function innerFunction is a closure. It has access to
 A closure is created when an inner function is defined inside an outer function, and the inner function references variables defined in the outer function. The inner function is returned from the outer function, and when it's invoked it has access to the scope of the outer function.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1654,7 +1576,6 @@ name instanceof String; // Output : true
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1696,7 +1617,6 @@ const myFunc = (arg) => {
 A method is a piece of code that is called by its name and that is associated with the object. Methods are functions. When you call a method like this obj1.myMethod(), the reference to obj1 gets assigned (bound) to this variable. In other words, the value of this will be obj1 inside myMethod.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1709,7 +1629,6 @@ A promise object has then method, where you can specify what to do when the prom
 You can chain then() blocks, thus avoiding the callback hell. You can handle errors in the catch() block. After a promise is set to fulfilled or rejected state, it becomes immutable.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1724,7 +1643,6 @@ The following rules are applied when we use this keyword in javascript
 5. If multiple of the above rules apply, the rule that is higher wins and will set the this value.
 6. If the function is an ES2015 arrow function, it ignores all the rules above and receives the this value of its surrounding scope at the time it is created.
   </details>
-  <br/>
 
 <details>
 <summary>
@@ -1743,7 +1661,6 @@ let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
 Note: Slice method wonot mutate the original array but it returns the subset as new array.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1789,7 +1706,6 @@ console.log(newObj); // { a: 1, b: { c: 2 } } (New Object Intact!)
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1820,7 +1736,6 @@ Techniques for avoiding callback hell
 -    Using Async-Await
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1842,7 +1757,6 @@ isPrimitive(myNonPrimitive);
 If the value is a primitive data type, the Object constructor creates a new wrapper object for the value. But If the value is a non-primitive data type (an object), the Object constructor will give the same object.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1855,7 +1769,6 @@ Babel is a JavaScript transpiler to convert ECMAScript 2015+ code into a backwar
 -    Source code transformations (or codemods)
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1868,7 +1781,6 @@ What are the different ways to deal with Asynchronous Code
 -    Async/await
 -    Third-party libraries such as async.js,bluebird etc
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1885,7 +1797,6 @@ thunk(); // 5
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1912,7 +1823,6 @@ asyncThunk();
 The getData function won't be called immediately but it will be invoked only when the data is available from API endpoint. The setTimeout function is also used to make our code asynchronous. The best real time example is redux state management library which uses the asynchronous thunks to delay the actions to dispatch.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1920,7 +1830,6 @@ Is JavaScript faster than server side script ?
 </summary>
 Yes, JavaScript is faster than server side script. Because JavaScript is a client-side script it does not require any web server’s help for its computation or calculation. So JavaScript is always faster than any server-side script like ASP, PHP, etc.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1928,7 +1837,6 @@ What paradigm is Javascript
 </summary>
 JavaScript is a multi-paradigm language, supporting imperative/procedural programming, Object-Oriented Programming and functional programming. JavaScript supports Object-Oriented Programming with prototypical inheritance.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1947,7 +1855,6 @@ Template literals or template strings are string literals allowing embedded expr
 Note: You can use multi-line strings and string interpolation features with template literals.
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1967,7 +1874,6 @@ console.log(`This is string sentence
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -1990,7 +1896,6 @@ When the browser tries to render an HTML document, it creates an object based on
 ```
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2013,7 +1918,6 @@ What is the difference between null and undefined
 -    Indicates absence of variable itself.
 -    Converted to NaN while performing primitive operations
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2031,7 +1935,7 @@ What is the difference between window and document
      -    It provides methods like getElementById, getElementsByTagName, createElement etc.
 
 </details>
-       <br/>
+
 
 <details>
 <summary>
@@ -2040,7 +1944,6 @@ What are modules
 </summary>
 Modules refer to small units of independent, reusable code and also act as the foundation of many JavaScript design patterns. Most of the JavaScript modules export an object literal, a function, or a constructor.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2053,7 +1956,6 @@ Below are the list of benefits using modules in javascript ecosystem
 -    Namespacing
 
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2062,7 +1964,6 @@ What is scope in javascript
 </summary>
 Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2077,7 +1978,6 @@ Objects are similar to Maps in that both let you set keys to values, retrieve th
 -    An Object has a prototype, so there are default keys in the map that could collide with your keys if you're not careful. As of ES5 this can be bypassed by using map = Object.create(null), but this is seldom done.
 -    A Map may perform better in scenarios involving frequent addition and removal of key pairs.
 </details>
-<br/>
 
 <details>
 <summary>
@@ -2094,4 +1994,3 @@ What is the difference between slice and splice
      - Returns the deleted elements as array.
 
 </details>
-       <br/>
