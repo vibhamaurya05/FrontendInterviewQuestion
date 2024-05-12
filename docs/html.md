@@ -8,7 +8,7 @@ sidebar_position: 1
 <summary>
 What is difference between HTML tags, elements and attributes?
 </summary>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fuga qui nesciunt ipsa eius laborum repudiandae aut dignissimos voluptatum, perspiciatis molestias numquam iste, dolores veniam. Aliquam, pariatur dolore quia non explicabo eius! Pariatur omnis quam quo molestias sequi, non quod consequatur beatae rem blanditiis inventore ratione quisquam aspernatur facere vel?
+                   hey i am vibha 
 
 </details>
 
